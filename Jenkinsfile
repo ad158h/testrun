@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Get the latest code from the Git repository
-                git 'https://github.com/ad158h/testrun.git'
+                git checkout 'https://github.com/ad158h/testrun.git'
             }
         }
         stage('Build') {
