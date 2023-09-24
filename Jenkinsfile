@@ -11,7 +11,7 @@ pipeline {
             steps {
                 // Build the web application (e.g., using npm, Maven, etc.)
                 sh 'npm install'
-                sh 'npm run build'
+                sh 'npm run'
             }
         }
         stage('Test') {
