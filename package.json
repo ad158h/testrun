@@ -1,0 +1,23 @@
+{
+  "name": "testrun",
+  "version": "1.0.0",
+  "description": "New CI Task.",
+  "main": "\\",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ad158h/testrun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ad158h/testrun/issues"
+  },
+  "homepage": "https://github.com/ad158h/testrun#readme",
+  "dependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0"
+  }
+}
